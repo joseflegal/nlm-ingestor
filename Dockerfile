@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:experimental
+# syntax=docker/dockerfile:1
 FROM python:3.11-bookworm
 RUN apt-get update && apt-get -y --no-install-recommends install libgomp1
 ENV APP_HOME /app

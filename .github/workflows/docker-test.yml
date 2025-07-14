@@ -19,8 +19,10 @@ jobs:
       - uses: astral-sh/setup-uv@v5
 
       - uses: docker/bake-action@v6
-        env:
-          BRANCH_NAME: test
+        with:
+          set: |
+            default.tags=nlm-parser:latest
+
       - name: Run tests
         run: |
           docker run -d -p 5010:5001 nlm-parser
