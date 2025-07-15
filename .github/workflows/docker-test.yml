@@ -20,6 +20,7 @@ jobs:
 
       - uses: docker/bake-action@v6
         with:
+          load: true
           set: |
             default.tags=nlm-parser:latest
 
