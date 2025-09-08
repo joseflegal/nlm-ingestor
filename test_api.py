@@ -6,9 +6,9 @@
 #     "httpx>=0.28.1",
 # ]
 # ///
-import httpx
 from pathlib import Path
 
+import httpx
 import pytest
 
 
