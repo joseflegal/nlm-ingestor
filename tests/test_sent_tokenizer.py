@@ -19,4 +19,4 @@ class PreProcessingTests(unittest.TestCase):
         for text in samples:
             sentences = sent_tokenize(text)
             expected = [text]
-            self.assertEquals(sentences, expected)
+            self.assertEqual(sentences, expected)
