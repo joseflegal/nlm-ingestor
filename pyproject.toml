@@ -28,4 +28,4 @@ dependencies = [
 dev = ["httpx>=0.28.1", "pytest>=8.3.5"]
 
 [tool.uv.sources]
-nlm-utils = { path = "whl/nlm_utils-0.1.5-py3-none-any.whl" }
+nlm-utils = { path = "whl/nlm_utils-0.1.6-py3-none-any.whl" }
