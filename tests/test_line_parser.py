@@ -1,6 +1,6 @@
 import unittest
 
-from ingestor import line_parser as lp
+from nlm_ingestor.ingestor import line_parser as lp
 
 
 class MyTest(unittest.TestCase):
