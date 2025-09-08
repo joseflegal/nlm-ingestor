@@ -1,6 +1,6 @@
 import unittest
 
-from ingestor_utils.utils import sent_tokenize
+from nlm_ingestor.ingestor_utils.utils import sent_tokenize
 
 
 class PreProcessingTests(unittest.TestCase):
@@ -19,4 +19,4 @@ class PreProcessingTests(unittest.TestCase):
         for text in samples:
             sentences = sent_tokenize(text)
             expected = [text]
-            self.assertEquals(sentences, expected)
+            self.assertEqual(sentences, expected)
