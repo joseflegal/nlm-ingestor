@@ -1,7 +1,10 @@
 HTML_DEBUG = False
 
-from nlm_ingestor.ingestor.visual_ingestor import (indent_parser, style_utils,
-                                                   table_parser)
+from nlm_ingestor.ingestor.visual_ingestor import (
+    indent_parser,
+    style_utils,
+    table_parser,
+)
 
 
 class BlockRenderer:

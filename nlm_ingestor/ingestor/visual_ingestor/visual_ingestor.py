@@ -15,12 +15,19 @@ import numpy as np
 from bs4 import BeautifulSoup
 
 from nlm_ingestor.ingestor import line_parser
-from nlm_ingestor.ingestor.visual_ingestor import (block_renderer,
-                                                   indent_parser, order_fixer,
-                                                   style_utils, table_parser)
+from nlm_ingestor.ingestor.visual_ingestor import (
+    block_renderer,
+    indent_parser,
+    order_fixer,
+    style_utils,
+    table_parser,
+)
 from nlm_ingestor.ingestor.visual_ingestor import vi_helper_utils as vhu
-from nlm_ingestor.ingestor_utils.ing_named_tuples import (BoxStyle, LineStyle,
-                                                          LocationKey)
+from nlm_ingestor.ingestor_utils.ing_named_tuples import (
+    BoxStyle,
+    LineStyle,
+    LocationKey,
+)
 from nlm_ingestor.ingestor_utils.parsing_utils import *
 from nlm_ingestor.ingestor_utils.utils import sent_tokenize
 

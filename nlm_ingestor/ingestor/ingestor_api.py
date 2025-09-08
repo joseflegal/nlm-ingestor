@@ -13,8 +13,12 @@ from nlm_utils.utils import ensure_bool
 
 import nlm_ingestor.ingestion_daemon.config as cfg
 from nlm_ingestor.file_parser import markdown_parser, pdf_file_parser
-from nlm_ingestor.ingestor import (html_ingestor, pdf_ingestor, text_ingestor,
-                                   xml_ingestor)
+from nlm_ingestor.ingestor import (
+    html_ingestor,
+    pdf_ingestor,
+    text_ingestor,
+    xml_ingestor,
+)
 from nlm_ingestor.ingestor_utils.utils import NpEncoder
 
 # initialize logging
